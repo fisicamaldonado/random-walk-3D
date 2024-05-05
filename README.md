@@ -6,7 +6,7 @@ El concepto de random walk es fundamental en diversos campos, desde la física h
 
 <img src="img/brown.jpeg" alt="brown" width="400"/>
 
-En la imagen anterior se muestra una representación de una partícula realizando un movimiento browniano, un tipo de random walk continuo en el que los pasos son pequeños y aleatorios.
+En la imagen anterior se muestra el movimiento browniano de partículas de tinta en un recipiente con agua, un tipo de random walk continuo en el que los pasos son pequeños y aleatorios.
 
 En este proyecto, utilizamos un dado de seis caras para simular el random walk tridimensional. Cada lanzamiento del dado determina una de seis posibles direcciones de movimiento: hacia adelante, hacia atrás, hacia la izquierda, hacia la derecha, hacia arriba o hacia abajo en el espacio tridimensional.
 
