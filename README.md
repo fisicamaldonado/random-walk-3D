@@ -4,7 +4,7 @@ Este es un proyecto de simulación de un random walk tridimensional en Python. E
 
 El concepto de random walk es fundamental en diversos campos, desde la física hasta la economía. Un ejemplo clásico de random walk se encuentra en las lecturas de Física de Richard Feynman, donde describe el movimiento de una partícula en un gas como una secuencia de pasos aleatorios. En su versión más simple, el random walk puede modelarse lanzando una moneda: si sale cara, la partícula avanza un paso hacia adelante; si sale cruz, retrocede un paso.
 
-<img src="img/browniano.png" alt="mov-brown" width="400"/>
+<img src="img/brown.png" alt="brown" width="400"/>
 
 En la imagen anterior se muestra una representación de una partícula realizando un movimiento browniano, un tipo de random walk continuo en el que los pasos son pequeños y aleatorios.
 
