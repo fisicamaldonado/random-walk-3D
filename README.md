@@ -2,6 +2,22 @@
 
 Este es un proyecto de simulación de un random walk tridimensional en Python. El random walk es un modelo matemático que describe un camino formado por una sucesión de pasos aleatorios. Este programa simula un random walk en tres dimensiones utilizando lanzamientos de dados simulados.
 
+El concepto de random walk es fundamental en diversos campos, desde la física hasta la economía. Un ejemplo clásico de random walk se encuentra en las lecturas de Física de Richard Feynman, donde describe el movimiento de una partícula en un gas como una secuencia de pasos aleatorios. En su versión más simple, el random walk puede modelarse lanzando una moneda: si sale cara, la partícula avanza un paso hacia adelante; si sale cruz, retrocede un paso.
+
+<img src="img/browniano.png" alt="mov-brown" width="400"/>
+
+En la imagen anterior se muestra una representación de una partícula realizando un movimiento browniano, un tipo de random walk continuo en el que los pasos son pequeños y aleatorios.
+
+En este proyecto, utilizamos un dado de seis caras para simular el random walk tridimensional. Cada lanzamiento del dado determina una de seis posibles direcciones de movimiento: hacia adelante, hacia atrás, hacia la izquierda, hacia la derecha, hacia arriba o hacia abajo en el espacio tridimensional.
+
+Si el dado muestra un 1, la partícula se mueve un paso hacia adelante.
+Si muestra un 2, retrocede un paso.
+Si muestra un 3, se mueve un paso hacia la izquierda.
+Si muestra un 4, se mueve un paso hacia la derecha.
+Si muestra un 5, sube un paso.
+Si muestra un 6, baja un paso.
+Este programa permite simular el random walk en tres dimensiones con un número ajustable de pasos y visualizar el camino resultante en un gráfico tridimensional.
+
 ## Funcionalidades
 
 - Simulación de un random walk en 3D con un número ajustable de pasos.
@@ -31,10 +47,10 @@ plot_random_walk_3D(walk_positions_3D, num_steps)
 ## Algunos ejemplos
 A continuación se muestran algunos ejemplos para 10, 100, 1000 y 1M pasos.
 
-![N=10](img/rnd10.png) 
-![N=100](img/rnd100.png) 
-![N=1000](img/rnd1000.png)
-![N=10000000](img/rnd1M.png)
+<img src="img/rnd10.png" alt="N=10" width="400"/>
+<img src="img/rnd100.png" alt="N=100" width="400"/>
+<img src="img/rnd1000.png" alt="N=1000" width="400"/> 
+<img src="img/rnd1M.png" alt="N=1M" width="400"/>
 
 ## Contribuir
 Si deseas contribuir a este proyecto, puedes hacer lo siguiente:
