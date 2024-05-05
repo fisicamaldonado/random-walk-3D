@@ -28,7 +28,13 @@ walk_positions_3D = random_walk_3D(num_steps)
 plot_random_walk_3D(walk_positions_3D, num_steps)
 
 ```
+## Algunos ejemplos
+A continuación se muestran algunos ejemplos para 10, 100, 1000 y 1M pasos.
 
+![N=10](img/rnd10.png) 
+![N=100](img/rnd100.png) 
+![N=1000](img/rnd1000.png)
+![N=10000000](img/rnd1M.png)
 
 ## Contribuir
 Si deseas contribuir a este proyecto, puedes hacer lo siguiente:
